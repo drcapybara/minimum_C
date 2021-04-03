@@ -30,12 +30,16 @@ int findMin(const int theArray[]) {
  * @brief Main method for program.
  * 
  */
-void main() {
+int main() {
 
    const int intSet[6] = {106, 23, 78, 90, 10, 100};
    const int minValue = findMin(intSet);
    
-   printf("%d\n", minValue);
+   char s[100] = "The minimum value of this array is: ";
+
+   printf("%s%d\n", s, minValue);
+
+   return 0;
 }
 
 
