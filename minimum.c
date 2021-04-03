@@ -13,6 +13,7 @@
  * @brief Finds minimum value from passed array.
  * 
  * @param theArray array to search for min value.
+ * @param theSize size of the incoming array.
  * @return int value which is minimum value from array.
  */
 int findMin(const int theArray[], const int theSize) {
